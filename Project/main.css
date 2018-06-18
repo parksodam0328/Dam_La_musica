@@ -1,0 +1,202 @@
+header {
+    background-color:#951E59;
+    width: 100%;
+    height: 5%;
+    opacity: 0.93;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 14;
+}
+.menubar1 li{
+    display: inline;
+    margin-left: auto; margin-right: 5%; 
+    color: white;
+    font-weight: 700;
+}
+a.no-line{
+    text-decoration:none;
+}
+#icon {
+    font-size: 2em;
+    color: white;
+    font-weight: 800;
+    vertical-align: middle;
+}
+#top {
+    font-size: 1.1em;
+    color: white;
+    font-weight: 400;
+    vertical-align: middle;
+}
+footer{
+    background-color: #951E59;
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: 15;
+    clear: both;
+}
+#footer_content{
+    color: white;
+    text-align: center;
+}
+section{
+    margin: 10px 10px 10px 5px;
+}
+nav{
+    color: white;
+}
+#footer_nav{
+    font-weight: 800;
+    margin: 20px 10px 10px 20px;
+}
+#ladygaga{
+    position: absolute;
+    left: 62%;
+    top: 56%;
+    z-index: 1;
+}
+#nikiminaj{
+    position: absolute;
+    left: 20%;
+    top: 22%;
+    z-index: 5;
+}
+#rihanna{
+    position: absolute;
+    left: 25%;
+    top: 0%;
+    z-index: 2;
+}
+#maroon5{
+    position: absolute;
+    left: 21%;
+    top: 54%;
+    z-index: 7;
+}
+#michaeljackson{
+    position: absolute;
+    left: 60%;
+    top: 28%;
+    z-index: 12;
+}
+#britneyspears{
+    position: absolute;
+    left: 45%;
+    top: 30%;
+    z-index: 6;
+}
+#adele1{
+    position: absolute;
+    left: 33%;
+    top: 46%;
+    z-index: 8;
+}
+#adele2{
+    position: absolute;
+    left: 50%;
+    top: 48%;
+    z-index: 9;
+}
+#amywinehouse{
+    position: absolute;
+    left: 38%;
+    top: 68%;
+    z-index: 11;
+}
+#eminem{
+    position: absolute;
+    left: 35%;
+    top: 12%;
+    z-index: 1;
+}
+#justinbieber{
+    position: absolute;
+    left: 62%;
+    top: 0%;
+    z-index: 2;
+}
+#kendricklamar{
+    position: absolute;
+    left: 50%;
+    top: 12%;
+    z-index: 4;
+}
+#taylorswift{
+    position: absolute;
+    left: 23%;
+    top: 38%;
+    z-index: 10;
+}
+img{
+    width: 210px;
+    height: 210px;
+}
+#top1{
+    margin-left:120px;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+.another{
+    margin-left:120px;
+    width: 210px;
+    height: 210px;
+    margin-left:120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.another_title{
+    color:#951E59;
+    font-size:25px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.another_artist{
+    color:#56630C;
+    font-size:22px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+#hot100{
+    color:#951E59;
+    font-size:30px;
+    font-weight: 900;
+}
+.contents{
+    width:200px;
+    border-bottom: 2px solid #951E59;
+    
+}
+
+#top_title{
+    color:#951E59;
+    font-size:28px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+#top_artist{
+    color:#56630C;
+    font-size:25px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+div{
+    width:80%;
+    border-bottom: 1px solid #bcbcbc;
+    margin-left: 70px;
+    
+}
+aside{
+    background-image: url("design/광고.jpg");
+    width: 20%;
+    height: 650px;
+    float: right;
+    position: fixed;
+    top: 27%;
+    right: 7%;
+    background-repeat:no-repeat;
+}
