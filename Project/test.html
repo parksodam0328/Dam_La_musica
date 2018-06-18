@@ -1,35 +1,70 @@
-<script language="JavaScript">
+<!DOCTYPE html>
+<html>
 
-    var pre_x = 0, pre_y = 0;
-    function set_value()
-    {
-     pre_x = event.x;
-     pre_y = event.y;
-    }
-     
-    function move()
-    {
-     var delta_x = pre_x - event.x ;
-     var delta_y = pre_y - event.y ;
-      
-     pre_x = event.x;
-     pre_y = event.y
-      
-     window.scrollBy(delta_x,delta_y);
-    }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
-    </script>
-    <!--
-    이미지 경로 부분
-    이미지 가로, 세로 크기가 1000인것은 마땅한 큰 이미지가 없어서 그냥 늘린겁니다.. ^^;;
-    //-->
-    <title>마우스 드래그로 스크롤을 움직이는 소스</title>
-    <img src="image/레이디가가_The Cure.jpg" width="300" height="300"  onMouseOver="this.style.cursor='move';" onmouseout="this.style.cursor='auto';"  Ondrag="move();"  onMouseDown="set_value();">
-    <img src="image/니키미나즈_The Pinkprint.jpg" width="300" height="300"  onMouseOver="this.style.cursor='move';" onmouseout="this.style.cursor='auto';"  Ondrag="move();"  onMouseDown="set_value();">
-    <img src="image/리한나_Loud.jpg" width="300" height="300"  onMouseOver="this.style.cursor='move';" onmouseout="this.style.cursor='auto';"  Ondrag="move();"  onMouseDown="set_value();">
-    <img src="image/마룬파이브_V.jpg" width="300" height="300"  onMouseOver="this.style.cursor='move';" onmouseout="this.style.cursor='auto';"  Ondrag="move();"  onMouseDown="set_value();">
-    <img src="image/마이클잭슨_Bad.jpg" width="300" height="300"  onMouseOver="this.style.cursor='move';" onmouseout="this.style.cursor='auto';"  Ondrag="move();"  onMouseDown="set_value();">
-    <img src="image/브리트니스피어스_In The Zone.jpg" width="300" height="300"  onMouseOver="this.style.cursor='move';" onmouseout="this.style.cursor='auto';"  Ondrag="move();"  onMouseDown="set_value();">
-    <img src="image/아델_21.jpg" width="300" height="300"  onMouseOver="this.style.cursor='move';" onmouseout="this.style.cursor='auto';"  Ondrag="move();"  onMouseDown="set_value();">
-    <img src="image/에미넴_Recovery.jpg" width="300" height="300"  onMouseOver="this.style.cursor='move';" onmouseout="this.style.cursor='auto';"  Ondrag="move();"  onMouseDown="set_value();">
-    
+<body>
+    <header>
+            <div class="navbar">
+                <a id="logo" href="test.html">POPMUSIC</a>
+                <div class="dropdown">
+                    <button class="dropbtn" onclick="location.href='test.html'">Billboard</button>
+                    <div class="dropdown-content">
+                        <div class="row">
+                            <div class="column">
+                                <a href="#">HOT100</a>
+                                <a href="#">Billboard</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn" onclick="location.href='test.html'">Genre</button>
+                    <div class="dropdown-content">
+                        <div class="row">
+                            <div class="column">
+                                <a href="#">R&B/Hip-Hop</a>
+                                <a href="#">Dance</a>
+                                <a href="#">Pop</a>
+                                <a href="#">Rap</a>
+                                <a href="#">Rock</a>
+                                <a href="#">Jazz-Pop</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn" onclick="location.href='test.html'">Video</button>
+                    <div class="dropdown-content">
+                        <div class="row">
+                            <div class="column">
+                                <a href="#">Music</a>
+                                <a href="#">Lyrics</a>
+                                <a href="#">Collaboration</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn" onclick="location.href='test.html'">Artist</button>
+                    <div class="dropdown-content">
+                        <div class="row">
+                            <div class="column">
+                                <a href="#">Female</a>
+                                <a href="#">Male</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+</body>
+
+</html>
