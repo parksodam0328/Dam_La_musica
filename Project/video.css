@@ -12,9 +12,7 @@ header {
     background-color:#951E59;
     width: 100%;
     opacity: 0.93;
-    position: absolute;
-    left: 0px;
-    top: 0px;
+    margin:0;
     z-index: 14;
 }
 
@@ -23,9 +21,6 @@ footer{
     width: 100%;
     height: 21%;
     padding-top:10px;
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
     z-index: 15;
     clear: both;
 }
@@ -85,90 +80,6 @@ header li.dropdown {
     display: block;
 }
 
-#ladygaga{
-    position: absolute;
-    left: 62%;
-    top: 56%;
-    z-index: 1;
-}
-#nikiminaj{
-    position: absolute;
-    left: 20%;
-    top: 22%;
-    z-index: 5;
-}
-#rihanna{
-    position: absolute;
-    left: 25%;
-    top: 0%;
-    z-index: 2;
-}
-#maroon5{
-    position: absolute;
-    left: 21%;
-    top: 54%;
-    z-index: 7;
-}
-#michaeljackson{
-    position: absolute;
-    left: 60%;
-    top: 28%;
-    z-index: 12;
-}
-#britneyspears{
-    position: absolute;
-    left: 45%;
-    top: 30%;
-    z-index: 6;
-}
-#adele1{
-    position: absolute;
-    left: 33%;
-    top: 46%;
-    z-index: 8;
-}
-#adele2{
-    position: absolute;
-    left: 50%;
-    top: 48%;
-    z-index: 9;
-}
-#amywinehouse{
-    position: absolute;
-    left: 38%;
-    top: 68%;
-    z-index: 11;
-}
-#eminem{
-    position: absolute;
-    left: 35%;
-    top: 12%;
-    z-index: 1;
-}
-#justinbieber{
-    position: absolute;
-    left: 62%;
-    top: 0%;
-    z-index: 2;
-}
-#kendricklamar{
-    position: absolute;
-    left: 50%;
-    top: 12%;
-    z-index: 4;
-}
-#taylorswift{
-    position: absolute;
-    left: 23%;
-    top: 38%;
-    z-index: 10;
-}
-img{
-    width: 12%;
-    height: 18%;
-}
-
-
 .footer_nav{
     float:left;
     padding : 15px 5%;
@@ -185,6 +96,25 @@ nav li{
 }
 
 .mySlides{
-    width:80%;
+    width:70%;
     height:30%;
+    margin:0 auto;
+}
+
+.w3-content{
+    width:100%;
+    height:30%;
+}
+
+hr{
+    width: 80%;
+    height: 3px;
+    color: #951E59;    /* IE */
+    border-color: #951E59;  /* 사파리 */
+    background-color: #951E59;   /* 크롬, 모질라 등, 기타 브라우저 */
+}
+
+.direction {
+    width:15px;
+    height:30px;
 }
