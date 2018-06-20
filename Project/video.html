@@ -9,46 +9,46 @@
     <link rel="stylesheet" href="video.css">
 </head>
 <header>
-    <ul>
-        <li>
-            <a id="logo" href="#home">POPMUSIC</a>
-        </li>
-        <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">Billboard</a>
-            <div class="dropdown-content">
-                <a class="menubar" href="#">Link 1</a>
-                <a class="menubar" href="#">Link 2</a>
-            </div>
-        </li>
-        <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">Genre</a>
-            <div class="dropdown-content">
-                <a class="menubar" href="#">Link 1</a>
-                <a class="menubar" href="#">Link 2</a>
-                <a class="menubar" href="#">Link 3</a>
-                <a class="menubar" href="#">Link 1</a>
-                <a class="menubar" href="#">Link 2</a>
-                <a class="menubar" href="#">Link 3</a>
-            </div>
-        </li>
-        <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">Video</a>
-            <div class="dropdown-content">
-                <a class="menubar" href="#">Link 1</a>
-                <a class="menubar" href="#">Link 2</a>
-                <a class="menubar" href="#">Link 3</a>
-            </div>
-        </li>
-        <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">Artist</a>
-            <div class="dropdown-content">
-                <a class="menubar" href="#">Link 1</a>
-                <a class="menubar" href="#">Link 2</a>
-            </div>
-        </li>
-    </ul>
-</header>
-<br>
+        <ul>
+            <li>
+                <a id="logo" href="index.html">POPMUSIC</a>
+            </li>
+            <li class="dropdown">
+                <a href="billboard.html" class="dropbtn">Billboard</a>
+                <div class="dropdown-content">
+                    <a class="menubar" href="hot100.html">Hot100</a>
+                    <a class="menubar" href="billboard200.html">Billobard 200</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="genre.html" class="dropbtn">Genre</a>
+                <div class="dropdown-content">
+                    <a class="menubar" href="randhip.html">R&B/Hip-Hop</a>
+                    <a class="menubar" href="dance.html">Dance</a>
+                    <a class="menubar" href="pop.html">Pop</a>
+                    <a class="menubar" href="rap.html">Rap</a>
+                    <a class="menubar" href="rock.html">Rock</a>
+                    <a class="menubar" href="jazz.html">Jazz-Pop</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="video.html" class="dropbtn">Video</a>
+                <div class="dropdown-content">
+                    <a class="menubar" href="music.html">Music Video</a>
+                    <a class="menubar" href="lyrics.html">Lyrics Video</a>
+                    <a class="menubar" href="collaboration.html">Collaboration Video</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="artist.html" class="dropbtn">Artist</a>
+                <div class="dropdown-content">
+                    <a class="menubar" href="female.html">Female</a>
+                    <a class="menubar" href="male.html">Male</a>
+                </div>
+            </li>
+        </ul>
+    </header>
+<br><br><br>
 <hr>
 <section>
     <div class="w3-content">
@@ -59,27 +59,29 @@
         <img class="mySlides" src="image/video_img4.png">
         <img class="mySlides" src="image/video_img5.png">
 
-        <img class="direction" src="image/left.png" style="position:absolute;left:12%;top:35%;" onclick="plusDivs(-1)">
-        <img class="direction" src="image/right.png" style="position:absolute;top:35%;right:12%;" onclick="plusDivs(1)">
-        </div>
-</section>
-
-<section>
-    <div class="w3-content">
-
-        <img class="mySlides" src="image/video_img1.png">
-        <img class="mySlides" src="image/video_img2.png">
-        <img class="mySlides" src="image/video_img3.png">
-        <img class="mySlides" src="image/video_img4.png">
-        <img class="mySlides" src="image/video_img5.png">
-
-        <img class="direction" src="image/left.png" style="position:absolute;left:12%;top:35%;" onclick="plusDivs(-1)">
-        <img class="direction" src="image/right.png" style="position:absolute;top:35%;right:12%;" onclick="plusDivs(1)">
-        </div>
+        <img class="direction" src="image/left.png" style="position:absolute;left:12%;top:27%;" onclick="plusDivs(-1)">
+        <img class="direction" src="image/right.png" style="position:absolute;top:27%;right:12%;" onclick="plusDivs(1)">
+    </div>
 </section>
 
 <br>
 <hr>
+
+
+<section>
+    <div="section_video">
+        <div class="video_content">
+            <video class="videoHome" src="video/charlieputh_attention.mp4" controls>비디오</video>
+            <video class="videoHome" src="video/taylorswift_look.mp4" controls>비디오</video>
+            <video class="videoHome" src="video/beyonce_runnin.mp4" controls>비디오</video>
+        </div>
+        <div class="video_content_title">
+                <span class="text">Music</span>
+                <span class="text">Lyrics</span>
+                <span class="text">Collaboration</span>
+            </div>
+    </div>
+</section>
 <footer>
     <nav>
         <div class="footer_nav">
@@ -149,7 +151,7 @@
             <a href="mailto:parksodam0228@e-mirim.hs.kr">
                 parksodam0228@e-mirim.hs.kr</a>
         </span>
-        </section>
+    </section>
 </footer>
 <script src="video.js"></script>
 </body>

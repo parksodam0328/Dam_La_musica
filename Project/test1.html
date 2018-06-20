@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+      #img_list td { width:80%; text-align:center;height:40%; overflow:hidden; }
+   
+      td{
+        width:20%;
+        height:20%;
+      }
+
+      .video_content{
+    width:20%;
+    height: 30%;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.section_video{
+    width: 100%;
+    overflow:hidden;
+    text-align:center;height:40%;
+}
+img{
+  width:100px;
+  height:100px;
+}
+    </style>
+    
+</head>
+<body>
+  <center>
+    <div="section_video">
+        <div class="video_content">
+            <img src="참고 이미지/sam.png">
+            <img src="참고 이미지/rihanna.png">
+            <img src="참고 이미지/rihanna.png">
+            <img src="참고 이미지/rihanna.png">
+            <img src="참고 이미지/rihanna.png">
+            <img src="참고 이미지/rihanna.png">
+            <img src="참고 이미지/rihanna.png">
+            <img src="참고 이미지/rihanna.png">
+            <img src="참고 이미지/rihanna.png">
+            <img src="참고 이미지/drake.png">
+        </div>
+      </div>
+      <input type="button" name="" value="<" onclick="scroll_left()"> <input type="button" name="" value=">" onclick="scroll_right()">
+      눌러 보세요 *^^*
+    </center>
+
+      <script type="text/javascript">
+
+        var amt = 10;	// 움직임 값 (클수록 빠름)
+        var gap = 100;	// 이미지와 사이 공간의 합
+      
+        var cnt = 0;
+        var init_amt = amt;
+      
+        function scroll_right(){
+          document.getElementById('section_video').scrollLeft += amt;
+          if(cnt >= gap){
+            cnt = 0;
+            var adj = document.getElementById('section_video').scrollLeft % gap;
+            document.getElementById('section_video').scrollLeft -= adj;
+            amt = init_amt;
+          }
+          else{
+            amt = Math.ceil(amt / 1.2);
+            setTimeout(scroll_right, 10);
+          }
+          cnt = cnt + amt;
+        }
+      
+        function scroll_left(){
+          document.getElementById('section_video').scrollLeft -= amt;
+          if(cnt >= gap){
+            cnt = 0;
+            var adj = document.getElementById('section_video').scrollLeft % gap;
+            if(adj > 0) adj = gap - adj
+            document.getElementById('section_video').scrollLeft += adj;
+            amt = init_amt;
+          }
+          else{
+            amt = Math.ceil(amt / 1.2);
+            setTimeout(scroll_left, 10);
+          }
+          cnt = cnt + amt;
+        }
+      
+      </script>
+</body>
+</html>
