@@ -24,12 +24,12 @@
             <li class="dropdown">
                 <a href="genre.html" class="dropbtn">Genre</a>
                 <div class="dropdown-content">
-                    <a class="menubar" href="randhip.html">R&B/Hip-Hop</a>
-                    <a class="menubar" href="dance.html">Dance</a>
-                    <a class="menubar" href="pop.html">Pop</a>
-                    <a class="menubar" href="rap.html">Rap</a>
-                    <a class="menubar" href="rock.html">Rock</a>
-                    <a class="menubar" href="jazz.html">Jazz-Pop</a>
+                    <a class="menubar" href="http://localhost:5000/board2/boardList">R&B/Hip-Hop</a>
+                    <a class="menubar" href="http://localhost:5000/board2/boardList">Dance</a>
+                    <a class="menubar" href="http://localhost:5000/board2/boardList">Pop</a>
+                    <a class="menubar" href="http://localhost:5000/board2/boardList">Rap</a>
+                    <a class="menubar" href="http://localhost:5000/board2/boardList">Rock</a>
+                    <a class="menubar" href="http://localhost:5000/board2/boardList">Jazz-Pop</a>
                 </div>
             </li>
             <li class="dropdown">
@@ -49,23 +49,67 @@
             </li>
         </ul>
     </header>
-    <section>
-        <div id="content">
-            <div id="box">
-                    <span id="word">Female</span>
-                <div class="w3-content">
+    <div id="content">
+        <div id="box">
+            <section>
+                <span id="word">Female</span>
+                <div class="container">
+                    <div id="mixedSlider">
+                        <div class="MS-content">
+                            <div class="item">
+                                <div class="imgTitle">
+                                    <h2 class="blogTitle">Animals</h2>
+                                    <img src="https://placeimg.com/500/300/animals" alt="" />
+                                </div>
+                                <p>aaa</p>
+                            </div>
+                            <div class="item">
+                                <div class="imgTitle">
+                                    <h2 class="blogTitle">Arch</h2>
+                                    <img src="https://placeimg.com/500/300/arch" alt="" />
+                                </div>
+                                <p>aaa</p>
 
-                    <img class="mySlides" src="image/video_img1.png">
-                    <img class="mySlides" src="image/video_img2.png">
-                    <img class="mySlides" src="image/video_img3.png">
-                    <img class="mySlides" src="image/video_img4.png">
-                    <img class="mySlides" src="image/video_img5.png">
+                            </div>
+                            <div class="item">
+                                <div class="imgTitle">
+                                    <h2 class="blogTitle">Nature</h2>
+                                    <img src="https://placeimg.com/500/300/nature" alt="" />
+                                </div>
+                                <p>aaa</p>
 
-                    <img class="direction" src="image/left.png" style="position:absolute;left:12%;top:33%;" onclick="plusDivs(-1)">
-                    <img class="direction" src="image/right.png" style="position:absolute;top:33%;right:12%;" onclick="plusDivs(1)">
+                            </div>
+                            <div class="item">
+                                <div class="imgTitle">
+                                    <h2 class="blogTitle">People</h2>
+                                    <img src="https://placeimg.com/500/300/people" alt="" />
+                                </div>
+                                <p>aaa</p>
+
+                            </div>
+                            <div class="item">
+                                <div class="imgTitle">
+                                    <h2 class="blogTitle">Tech</h2>
+                                    <img src="https://placeimg.com/500/300/tech" alt="" />
+                                </div>
+                                <p>aaa</p>
+
+                            </div>
+
+                        </div>
+                        <div class="MS-controls">
+                            <button class="MS-left">
+                                <i class="fa fa-angle-left" aria-hidden="true"></i>
+                            </button>
+                            <button class="MS-right">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
                 </div>
-    </section>
-    </div>
+
+            </section>
+        </div>
     </div>
     <footer>
         <nav>
@@ -73,7 +117,7 @@
                 Billboard
                 <ul class="footer_content">
                     <li>
-                        <a href="//www.thinkific.com">HOT100</a>
+                        <a href="billboard.html">HOT100</a>
                     </li>
                 </ul>
             </div>
@@ -81,24 +125,24 @@
                 Genre
                 <ul class="footer_content">
                     <li>
-                        <a href="//www.thinkific.com">R&B/Hip-Hop</a>
+                        <a href="https://hostingtest-edfb7.firebaseapp.com/board2/boardList">R&B/Hip-Hop</a>
                     </li>
                     <li>
-                        <a href="//www.thinkific.com">Dance</a>
+                        <a href="https://hostingtest-edfb7.firebaseapp.com/board2/boardList">Dance</a>
                     </li>
                     <li>
-                        <a href="//www.thinkific.com">Pop</a>
+                        <a href="https://hostingtest-edfb7.firebaseapp.com/board2/boardList">Pop</a>
                     </li>
                     <li>
-                        <a href="//www.thinkific.com">Rap</a>
+                        <a href="https://hostingtest-edfb7.firebaseapp.com/board2/boardList">Rap</a>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        <a href="//www.thinkific.com">Rock</a>
+                        <a href="https://hostingtest-edfb7.firebaseapp.com/board2/boardList">Rock</a>
                     </li>
                     <li>
-                        <a href="//www.thinkific.com">Jazz-Pop</a>
+                        <a href="https://hostingtest-edfb7.firebaseapp.com/board2/boardList">Jazz-Pop</a>
                     </li>
                 </ul>
             </div>
@@ -136,6 +180,14 @@
         </section>
     </footer>
     <script src="video.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="js/multislider.js"></script>
+    <script>
+        $('#mixedSlider').multislider({
+            duration: 750,
+            interval: 3000
+        });
+    </script>
 </body>
 
 </html>

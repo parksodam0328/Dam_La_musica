@@ -1,0 +1,19 @@
+{
+  "name": "nmt_project",
+  "version": "1.0.0",
+  "description": "make a board",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parksodam0328/NMT_Project.git"
+  },
+  "author": "Park Sodam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parksodam0328/NMT_Project/issues"
+  },
+  "homepage": "https://github.com/parksodam0328/NMT_Project#readme"
+}
