@@ -11,13 +11,12 @@ header {
     background-color:#951E59;
     width: 100%;
     opacity: 0.93;
-    margin-top:0px;
-    padding: 0px;
+    position: relative;
+    height: 50px;
+    left: 0px;
+    top: 0px;
     z-index: 14;
-    font-size:0;
 }
-
-
 footer{
     background-color: #951E59;
     width: 100%;
@@ -93,19 +92,9 @@ header li.dropdown {
     font-weight: 400;
     vertical-align: middle;
 }
-footer{
-    background-color: #951E59;
-    width: 100%;
-    height: 20%;
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    z-index: 15;
-    clear: both;
-}
 
 #top1{
-    margin-left:120px;
+    margin-left:70px;
     width: 250px;
     height: 250px;
     margin-bottom: 20px;
@@ -114,7 +103,7 @@ footer{
     margin-left:120px;
     width: 210px;
     height: 210px;
-    margin-left:120px;
+    margin-left:70px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -165,7 +154,7 @@ aside{
     height: 650px;
     float: right;
     position: fixed;
-    top: 27%;
+    top: 100px;
     right: 9%;
     background-repeat:no-repeat;
 }
@@ -180,7 +169,7 @@ body {
 #week{
     color:#56630C;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 23px;
 }
 #week a:link{
     color:#56630C;
@@ -197,4 +186,38 @@ body {
 #week a:active{
     color:#56630C;
     text-decoration: none;
+}
+footer{
+    background-color: #951E59;
+    width: 100%;
+    height: 200px;
+    clear: both;
+}
+body {
+    margin: 0;
+}
+html, body { height:100%; margin:0; padding:0;}
+#content { min-height:100%; margin:-50px 0 -50px 0;}
+*html #content { height:100%;}
+#box { height:100%; padding:50px 0 150px;}
+
+.footer_nav{
+    float:left;
+    width: 14.8%;
+    padding : 8px 5%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ul.footer_content{
+    list-style:none;
+   padding-left:0px;
+   text-align: center;
+}
+
+nav li{
+    text-align: left;
+    margin-left:32.5%;
+    margin-right: 30%;
+    width: 100%;
 }
