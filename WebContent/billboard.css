@@ -1,0 +1,108 @@
+
+#icon {
+    font-size: 2em;
+    color: white;
+    font-weight: 800;
+    vertical-align: middle;
+}
+#top {
+    font-size: 1.1em;
+    color: white;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+#top1{
+    margin-left:70px;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+.another{
+    margin-left:120px;
+    width: 210px;
+    height: 210px;
+    margin-left:70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.another_title{
+    color:#951E59;
+    font-size:25px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.another_artist{
+    color:#56630C;
+    font-size:22px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+#hot100{
+    color:#951E59;
+    font-size:30px;
+    font-weight: 900;
+}
+.contents{
+    width:200px;
+    border-bottom: 2px solid #951E59;
+    text-align: center;
+}
+
+#top_title{
+    color:#951E59;
+    font-size:28px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+#top_artist{
+    color:#56630C;
+    font-size:25px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+div.line{
+    width:80%;
+    border-bottom: 1px solid #bcbcbc;
+    margin-left: 10px%;
+    
+}
+aside{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/hosting-b2e49.appspot.com/o/%EA%B4%91%EA%B3%A0.jpg?alt=media&token=1da4870f-6c0d-49d6-99af-19cebe9185d1");
+    width: 20%;
+    height: 650px;
+    float: right;
+    position: fixed;
+    top: 100px;
+    right: 9%;
+    background-repeat:no-repeat;
+}
+body {
+    margin: 0;
+}
+.day{
+    margin-top:10px;
+    width:200px;
+    text-align: center;
+}
+#week{
+    color:#56630C;
+    font-weight: 400;
+    font-size: 23px;
+}
+#week a:link{
+    color:#56630C;
+    text-decoration: none;
+}
+#week a:visited{
+    color:#56630C;
+    text-decoration: none;
+}
+#week a:hover{
+    color:#56630C;
+    text-decoration: none;
+}
+#week a:active{
+    color:#56630C;
+    text-decoration: none;
+}

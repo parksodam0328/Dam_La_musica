@@ -1,0 +1,75 @@
+div#menu{
+    z-index: 9999;
+}
+.dropdown-content a:hover {color: #fff;z-index: 9;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    z-index: 9;
+}
+.footer_nav{
+    float:left;
+    width: 14.8%;
+    padding : 8px 5%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ul.footer_content{
+    list-style:none;
+   padding-left:0px;
+   text-align: center;
+}
+
+nav li{
+    text-align: left;
+    margin-left:32.5%;
+    margin-right: 30%;
+    width: 100%;
+}
+
+
+.container2 {
+    display: inline;
+    position: relative;
+    z-index:1;
+}
+.image6{
+    width: 38%;
+    height: 35%;
+}
+.image3{
+    width: 38%;
+    margin-left: 1%;
+    height: 35%;
+}
+
+.image2{
+    width: 30%;
+    height: 28%;
+    margin-right: 3%;
+}
+
+
+.image4{
+    width: 30%;
+    height: 28%;
+    margin-left: -2%;
+}
+
+.image1{
+    width: 14.7%;
+    height: 14.7%;
+    margin-left: -2%;
+    margin-right: 3%;
+}
+
+.image5{
+    width: 18.8%;
+    position: absolute;
+    height: 210px;
+    left: 35%;
+    margin-bottom: 5%;
+    margin-left: 5.2%;
+}
+
